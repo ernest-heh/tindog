@@ -1,0 +1,60 @@
+body {
+  font-family: "Schibsted Grotesk", sans-serif;
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+.container-fluid {
+  padding: 0rem 15% 2rem;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 3.5rem;
+  line-height: 1.1;
+}
+
+/* Title Img */
+#title-img {
+  transform: rotate(25deg);
+  width: 60%;
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.4));
+}
+
+/* Navigation Bar */
+.navbar-brand {
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding-left: 1rem;
+}
+
+/* Features Section */
+#features {
+  padding: 4rem 0;
+}
+
+#features i {
+  color: #ef8172;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  transition: color 500ms;
+}
+
+#features i:hover {
+  color: #ff4c68;
+}
+
+#features h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+#features p {
+  color: #8f8f8f;
+  margin-bottom: 4rem;
+}
