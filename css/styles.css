@@ -35,7 +35,7 @@ h1 {
 
 /* Features Section */
 #features {
-  padding: 4rem 0;
+  padding: 4rem 0 0;
 }
 
 #features i {
@@ -57,4 +57,37 @@ h1 {
 #features p {
   color: #8f8f8f;
   margin-bottom: 4rem;
+}
+
+/* Testimonial Section */
+#testimonials {
+  padding: 4rem 0;
+  background-color: #ef8172;
+}
+
+#testimonials h2 {
+  font-size: 2rem;
+  line-height: 1.4;
+}
+
+#testimonials img {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 10%;
+  margin: 0.6rem;
+}
+
+.carousel-item {
+  padding: 0 10%;
+}
+
+/* Press Section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 2rem;
+}
+
+#press img {
+  width: 15%;
+  margin: 0 1.5rem;
 }
