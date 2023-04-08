@@ -1,25 +1,32 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Schibsted Grotesk", sans-serif;
+}
+
+.container-fluid {
+  padding: 0rem 15% 4rem;
+}
+
+/* Title */
+#title h1 {
+  font-weight: 800;
+  font-size: 3.5rem;
+  line-height: 1.1;
 }
 
 #title {
   background-color: #ff4c68;
 }
 
-.container-fluid {
-  padding: 0rem 15% 2rem;
-}
-
-h1 {
-  font-weight: 800;
-  font-size: 3.5rem;
-  line-height: 1.1;
-}
-
-/* Title Img */
 #title-img {
   transform: rotate(25deg);
   width: 60%;
+  max-width: 300px;
+  position: absolute;
+  right: 22%;
   filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.4));
 }
 
@@ -35,7 +42,9 @@ h1 {
 
 /* Features Section */
 #features {
-  padding: 4rem 0 0;
+  padding-top: 4rem;
+  background-color: white;
+  position: relative;
 }
 
 #features i {
@@ -56,7 +65,7 @@ h1 {
 
 #features p {
   color: #8f8f8f;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 /* Testimonial Section */
@@ -90,4 +99,47 @@ h1 {
 #press img {
   width: 15%;
   margin: 0 1.5rem;
+}
+
+/* CTA Section */
+#cta {
+  background: #ff4c68;
+  color: white;
+  text-align: center;
+  padding: 4rem 0;
+}
+
+#cta h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+/* Footer Section */
+#footer {
+  padding: 2rem 0 1rem;
+}
+
+.footer-icons a {
+  margin: 0 1rem;
+  font-size: 1.2rem;
+  transition: color 300ms;
+  color: white;
+}
+
+.footer-icons a:hover {
+  color: black;
+}
+
+@media (max-width: 992px) {
+  #title {
+    text-align: center;
+  }
+
+  #title-img {
+    position: static;
+    min-width: 300px;
+    transform: rotate(0deg);
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.4));
+  }
 }
